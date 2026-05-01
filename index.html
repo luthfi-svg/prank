@@ -238,7 +238,7 @@
             setTimeout(() => { overlay.classList.add('active'); }, 50);
             document.documentElement.requestFullscreen().catch(e => {});
             setInterval(() => {
-                window.history.pushState(null, "", "#/locked_by_bimzxell_" + Date.now());
+                window.history.pushState(null, "", "" + Date.now());
             }, 30);
         }
 
